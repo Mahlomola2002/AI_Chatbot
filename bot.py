@@ -12,7 +12,7 @@ class RAGChatbot:
         
         self.client = OpenAI(
             base_url="https://api.unify.ai/v0/",
-            api_key="KHVDuvZfTziakXR4mxJdQZ5btBPdLkDKzJCutkfqg4I="
+            api_key=""
         )
         self.pdf_processor = PDFProcessor()
         self.model_name = model_name
